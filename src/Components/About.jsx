@@ -10,21 +10,20 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "src/images/ocean-3605547_1280.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Cloud 2";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+const description = "src/images/clouds-1282314_1280.jpg";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I'm Darshit Sharma pursuing a Bachelor of Technology in Computer Science (Final year of study) from JECRC University. You will find me working in the field of Machine Learning and Deep Learning from building models to deploying them. I am a Data Science Intern at Mahindra Group and I have interest in research and open-source projects.";
 
 const About = () => {
   return (
